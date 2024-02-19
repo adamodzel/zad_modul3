@@ -164,18 +164,26 @@ header {
 .our-services-title {
     flex-wrap: flex;
     min-width: 200px;
-    margin: 24px;
-    padding: 16px;
-    font-size: 32px;
-    border: 2px solid;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 40px;
     width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0;
+    width: 10;
+}
 
+.our-services-subtitle {
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 .our-services {
     font-size: 15px;
     background-color: white;
-    color: blue;
+    color: black;
     max-width: 1140px;
     padding: 0 20px;
     margin: 0 auto;

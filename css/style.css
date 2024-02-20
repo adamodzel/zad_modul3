@@ -84,13 +84,13 @@ header {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 700px;
+  height: 600px;
   display: flex;
 }
 
 .splash-inner {
   margin: auto;
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .page-title {
@@ -102,7 +102,7 @@ header {
 }
 
 .page-subtitle {
-  margin-top: 30px;
+  margin-top: 0px;
   word-spacing: 6px;
   font-weight: 700;
   font-size: 60px;
@@ -160,7 +160,7 @@ header {
 .our-services-subtitle {
   margin-top: 0;
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .our-services {
@@ -170,237 +170,56 @@ header {
   max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
+  margin-bottom: 35px;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: left;
+.row .card i {
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  line-height: 1.9;
+  color: #654b42;
+  border-radius: 50%;
+  border: 4px solid #654b42;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
-.box {
-  flex: 33.333%;
-  position: relative;
-  padding: 20px;
-}
-
-p:first-of-type {
+.row .box .page-subtitle {
   font-weight: bold;
 }
 
-.number {
-  position: absolute;
-  top: -10px;
-  left: 15px;
-  font-size: 80px;
-  color: yellow;
-  opacity: 0.7;
-  font-weight: bold;
-}
-
-/* Our Work */
-.our-work {
+/* Our portfolio */
+.our-portfolio {
   font-size: 15px;
-  background-color: #ecf0f1;
-  color: blue;
+  background-color: rgb(223, 217, 217);
+  color: black;
+  padding: 16px 0;
+  margin: 0 auto;
+}
+
+.our-portfolio-title {
+  flex-wrap: flex;
+  min-width: 200px;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 40px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 10;
+}
+
+.our-portfolio-subtitle {
+  margin-top: 0;
+  font-size: 15px;
+  margin-bottom: 35px;
 }
 
 .container {
   max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
-}
-
-h1 {
-  padding-bottom: 30px;
-  border-bottom: 2px solid #ffffff;
-}
-
-.box-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.our-work .title {
-  text-align: left;
-}
-
-.wrapper {
-  flex: 0 0 50%;
-  min-height: 300px;
-  margin-bottom: 96px;
-  position: relative;
-  background-color: #ecf0f1;
-}
-
-.work-img {
-  position: absolute;
-  max-width: 250px;
-  height: 100%;
-}
-
-.work-img::after {
-  content: "";
-  background-color: #27ae60;
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  height: 100%;
-  width: 100%;
-  opacity: 0.5;
-}
-
-.work-img img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.work-text {
-  position: relative;
-  padding: 40px 0 40px 0;
-  text-align: left;
-  color: blue;
-}
-
-/* Contact */
-.no-style {
-  background-color: #bdc3c7;
-}
-
-.styled {
-  background: #3498db;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.styled form {
-  padding: 40px;
-  max-width: 600px;
-  margin: 20px 70px 20px 27px;
-}
-
-.styled h1 {
-  text-align: left;
-  color: #ffffff;
-  font-weight: 300;
-  margin: 0 0 40px;
-}
-
-.styled input,
-.styled textarea {
-  font-size: 15px;
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 5px 10px;
-  background: none;
-  border: none;
-  border-bottom-style: solid;
-  color: #ffffff;
-  border-radius: 0;
-  -webkit-transition: border-color 0.25s ease, box-shadow 0.25s ease;
-  transition: border-color 0.25s ease, box-shadow 0.25s ease;
-}
-
-.styled input:focus,
-.styled textarea:focus {
-  outline: 0;
-  border-color: #e67e22;
-}
-
-.styled .field-wrap {
-  position: relative;
-  margin-bottom: 40px;
-}
-
-.styled .button {
-  border: 1px solid;
-  outline: none;
-  border-radius: 6px;
-  padding: 15px 0;
-  font-size: 1rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  background: none;
-  color: #ffffff;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  -webkit-appearance: none;
-}
-
-.styled .button:hover,
-.styled .button:focus {
-  background: #f1c40f;
-}
-
-.styled .button-block {
-  width: 40%;
-}
-
-/* Footer */
-.footer {
-  margin: 0 auto;
-  height: 100px;
-  width: 300px;
-}
-
-.footer ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.footer ul li {
-  font-size: 0;
-}
-
-i {
-  font-size: 30px;
-  background: #3498db;
-  width: 50px;
-  height: 50px;
-  line-height: 2;
-  color: #ffffff;
-  border-radius: 50%;
-}
-
-i:hover {
-  transform: scale(1.2);
-  webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-/* Media */
-@media (max-width: 767px) {
-  header {
-    flex-direction: column;
-  }
-  .container {
-    flex-direction: column;
-  }
-  .box {
-    flex-direction: column;
-  }
-  .box-wrapper {
-    flex-direction: column;
-  }
-  .footer ul {
-    flex-direction: column;
-  }
-  .wrapper {
-    flex-direction: column;
-  }
-  .our-services-title {
-    flex-direction: column;
-  }
-  .work-img {
-    max-width: 100%;
-    height: 150px;
-    position: relative;
-  }
-  i {
-    margin-top: 4px;
-  }
 }/*# sourceMappingURL=style.css.map */

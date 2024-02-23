@@ -84,7 +84,7 @@ header {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  height: 700px;
   display: flex;
 }
 
@@ -102,11 +102,12 @@ header {
 }
 
 .page-subtitle {
-  margin-top: 0px;
+  margin-top: 20px;
   word-spacing: 6px;
   font-weight: 700;
   font-size: 60px;
   color: #ffffff;
+  line-height: 1.2;
 }
 
 .btn {
@@ -161,6 +162,7 @@ header {
   margin-top: 0;
   font-size: 15px;
   margin-bottom: 35px;
+  position: relative;
 }
 
 .our-services {
@@ -186,8 +188,22 @@ header {
   margin-top: 30px;
 }
 
+.card i:hover {
+  transform: scale(1.2);
+  webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 .row .box .page-subtitle {
   font-weight: bold;
+}
+
+.our-services h3 {
+  font-size: 20px;
+}
+
+.our-services p {
+  font-size: 18px;
 }
 
 /* Our portfolio */
@@ -195,12 +211,13 @@ header {
   font-size: 15px;
   background-color: rgb(223, 217, 217);
   color: black;
-  padding: 16px 0;
+  padding: 5px 0;
   margin: 0 auto;
+  max-height: 1200px;
+  padding-bottom: 55px;
 }
 
 .our-portfolio-title {
-  flex-wrap: flex;
   min-width: 200px;
   font-weight: bold;
   margin: 30px;
@@ -215,11 +232,110 @@ header {
 .our-portfolio-subtitle {
   margin-top: 0;
   font-size: 15px;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 
-.container {
-  max-width: 1140px;
+.our-portfolio .card {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1254901961);
+  border-radius: 0.25rem;
+  height: 300px;
+}
+
+.card-image {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  padding-right: 30px;
+}
+
+.card-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card-image img:hover {
+  transition: 1s;
+}
+
+.our-portfolio .card-body {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 155px;
+  text-align: right;
+  text-align: center;
+}
+
+.our-portfolio .card-body h5 {
+  padding-top: 30px;
+  padding-bottom: 0;
+  height: 36px;
+}
+
+.our-portfolio .card-body h6 {
   padding: 0 20px;
+  text-align: center;
+  padding: 0 0 36px 0;
+}
+
+/* Footer */
+.footer {
   margin: 0 auto;
+  padding: 20px 0;
+  height: 100px;
+  max-height: 100px;
+  background-color: white;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer ul li {
+  font-size: 0;
+  position: relative;
+}
+
+.footer .col-md-4 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.footer .col-md-4 p {
+  color: dark;
+  display: flex;
+  padding-top: 3px;
+}
+
+.col-md-8 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
+}
+
+.footer .col-md-8 i {
+  font-size: 25px;
+  background: #654b42;
+  width: 40px;
+  height: 40px;
+  line-height: 1.65;
+  color: #ffffff;
+  border-radius: 50%;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.footer i:hover {
+  transform: scale(1.2);
+  webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }/*# sourceMappingURL=style.css.map */

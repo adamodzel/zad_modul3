@@ -61,7 +61,6 @@ nav {
     color: #ffffff;
 }
 
-
 .navigation ul ul li {
     display: block;
     margin: 0 0 9px 0;
@@ -89,6 +88,7 @@ nav {
 .navigation li ul a:hover {
     color: #ffffff;
 }   
+
 
 /* Header */
 
@@ -124,8 +124,6 @@ header {
     color: #ffffff;
     line-height: 1.2;
 }
-
-
     
 .btn {
     display: inline-block;
@@ -154,13 +152,12 @@ header {
     color: #ffffff;
     background: none;
 }
+
 .btn-one:hover {
     transition: $transition;
     background-image: linear-gradient(-90deg, #654b42 40%, transparent 50%);
     color: #ffffff;
 }
-
-
 
 
 /* Our Services */
@@ -226,7 +223,6 @@ header {
     font-size: 18px;
 }
 
-    
 
 /* Our portfolio */
 
@@ -258,7 +254,6 @@ header {
     margin-bottom: 50px;
 }
 
-
 .our-portfolio .card {
     margin-bottom: 30px;
     background-color: #ffffff;
@@ -273,8 +268,7 @@ header {
     width: 100%;
     height: 60%;
     overflow: hidden;
-    padding-right: 30px;
-    
+    padding-right: 30px;  
 }
 
 .card-image img {
@@ -283,11 +277,9 @@ header {
     height: 100%; 
 }
 
-
 .card-image img:hover {
     transition: 1s;
 }
-
 
 .our-portfolio .card-body {
      text-align: center;
@@ -319,7 +311,6 @@ header {
     max-height: 100px;
     background-color: white;
 }
-
 
 .footer ul {
     display: flex;
@@ -364,17 +355,8 @@ header {
     align-items: center;
 }
 
-
-
 .footer i:hover {
     transform: scale(1.2);
     webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-
-
-
-
-
-
-
